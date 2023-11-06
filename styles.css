@@ -1,0 +1,198 @@
+body {
+    background-image: url("/Imágenes/pokeball.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.inicio {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    background-color: black;
+    font-weight: 700;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 25px;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+}
+.inicio:hover {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 20px;
+}
+.poke {
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    left: 80%;
+    top: 3%; 
+}
+.titulo {
+    color: white;
+    font-style: normal;
+    font-size: 100px;
+    text-align: center;
+    background-color: #b22222;
+    padding: 30px 30px;
+    margin: auto;
+}
+.frase {
+    color: white;
+    position: relative;
+    font-size: 28px;
+    text-align: center;
+    bottom: 60px;
+}
+.contenido{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    
+}
+.cosa{
+    border-radius: 11px;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
+.cosa:hover{
+   box-shadow: 0 10px 20px black;
+}
+.cosa img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top-right-radius: 50px;
+    transition: all .5s;
+}
+.cosa figure{
+    overflow: hidden;
+}
+.cosa:hover img{
+    transform: scale(1.2);
+
+}
+.bajo{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.precio{
+    font-size: 30px;
+    font-weight: 900;
+}
+.bajo button{
+    border: none;
+    background: none;
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+    width: 280px;
+    cursor: pointer;
+}
+.bajo button:hover {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+}
+footer {
+    background-color: #b22222;
+    color: #fff;
+    padding: 15px 30px;
+    text-align: center;
+    margin: auto;
+}
+.social-icons {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.social-icons li {
+    display: inline;
+    margin: 0 15px;
+}
+.social-icons a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+}
+.social-icons a:hover {
+    color: #e5d2c4;
+}
+.pokemonpie {
+    text-align: center;
+    font-size: large;
+    color:#f2e8e1;
+    margin: 0 120px;
+}
+.numero {
+    text-align: right;
+    margin: 0 20px;
+    font-size: x-large;
+}
+
+
+.imagen1 {
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+    width: 300px; 
+    height: auto;
+    margin-right: 120px;
+    margin-left: 40px;
+}
+.contenedor {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.tabla {
+    flex: 4;
+    font-size: 25px;
+}
+.tit {
+    font-size: 40px;
+    margin: 0;
+}
+.boton {
+    padding: 15px 30px;
+    line-height: 2;
+    
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+   
+    background-color: black;
+    color: white;
+    padding: 20px 15px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;  
+    transition: background-color 0.3s ease; 
+}
+.boton:hover {
+    background-color: #ff3333;
+}
+.cosa {
+    border-radius: 11px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.largo {
+    word-wrap: break-word;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 700px;
+}
